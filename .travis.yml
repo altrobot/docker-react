@@ -1,6 +1,6 @@
 sudo: required
 services:
-  - docker2
+  - docker
 
 before_install:
   - docker build -t stephengrider/docker-react -f Dockerfile.dev .
